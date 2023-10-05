@@ -1,0 +1,99 @@
+
+.circle{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width:8rem;
+   height:8rem;
+   background-color: hsla(256, 72%, 46%, 1);
+   background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)
+   );
+   border-radius: 50%;
+   margin:auto;
+   flex-direction: column;
+}
+.ps-2{
+   font-size: 12px;
+}
+.col1{
+   background-color: hsl(241,81%,55%);
+   background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)
+   );
+   width: 20vw;
+   height:55vh;
+   display: inline-block;
+   margin:8rem 0;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   border-radius: 8%;
+   text-align: center;
+}  
+.col1 h6{
+   display:flex;
+   justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 10px;
+   color:black;
+
+}
+.col2{
+   background-color: hsl(0,0%,100%);
+   margin-top: 126.5px;
+   width: 20vw;
+   height:55vh;
+   border-radius: 8%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /*used it from CSS Scan website */
+}
+
+
+.btn{
+   background-color: black;
+   width: 85%;
+   color: white;
+   border-radius: 25%;
+}
+.btn:hover{ 
+   background-color: hsl(241, 81%, 55%);
+   color: white;
+}
+.container1{
+   margin:auto;
+   display:flex;
+   flex-direction:row;
+   justify-content: center;
+}
+.first{
+   background-color: hsla(0, 100%, 67%,0.1);
+}
+.second{
+   background-color: hsla(39, 100%, 56%,0.1);
+}
+.third{
+   background-color: hsla(166, 100%, 37%,0.1);
+}
+.fourth{
+   background-color: hsla(224, 30%, 27%,0.1);
+}
+
+@media (max-width:375px){
+   .container1{
+      flex-direction:column;
+   }
+
+
+   .col1{   
+      width:80vw;
+      height:50vh;
+      margin: 0 auto;margin-top: 15px;
+   }
+   .col2{  
+      width:80vw;
+      height: 50vh;
+      margin-top:-30px;
+      border-radius:5%;
+      margin: 0 auto;
+   }
+}
+
+
+
